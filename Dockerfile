@@ -9,6 +9,6 @@ RUN apt-get update -y && \
 COPY . /app
 WORKDIR /app
 run pip3 install --upgrade pip
-run pip3 install -r requirements.txt
+run pip3 install --no-cache-dir -r requirements.txt
 
 CMD python3 -m flask run --host=0.0.0.0
