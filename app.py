@@ -12,6 +12,8 @@ def allowed_file(filename):
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = './static/temp/'
+if not os.path.exists(app.config['UPLOAD_FOLDER']):
+    os.makedirs(app.config['UPLOAD_FOLDER'])
 app.config['host'] = '0.0.0.0'
 model_runner = ModelRunner('./export')
 
@@ -67,15 +69,11 @@ def classify_image():
         output_message = "Something went wrong with the file uploaded, please try another."
     return render_template('index.html', message=output_message)
 
-
     # (failed) attempts at doing in-memory loading
     # image_string = base64.b64encode(image_file.read())
     # image_bytes = base64.decodebytes(image_string)
     # numpy_image = np.frombuffer(image_bytes, dtype=np.uint8)
     # print(numpy_image)
-
-
-
 
 if __name__ == "__main__":
     app.run()
