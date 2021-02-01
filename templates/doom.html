@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Doom</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div>
+				<ul>
+					<li>
+						<a href="{{ url_for('home') }}">Home</a>
+					</li>
+					<li>
+						<a href="{{ url_for('what') }}">...what?</a>
+					</li>
+				</ul>
+				<a href="{{ url_for('home') }}" id="logo"><img src="{{ url_for('static', filename= 'images/logo.png') }}" alt="Image"></a>
+				<ul>
+					<li>
+						<a href="{{ url_for('why') }}">Why?</a>
+					</li>
+					<li>
+						<a href="{{ url_for('contact') }}">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<ul>
+				<li class="current">
+					<a href="{{ url_for('doom') }}">DOOM</a>
+				</li>
+				<li>
+					<a href="{{ url_for('lasagna') }}">LASAGNA</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="body">
+		<div id="content">
+			<ul class="gallery">
+				<li>
+					<a href="#" class="figure">
+						<img src="{{ url_for('static', filename= 'images/doom/064.png')}}" alt="", width='240px' height="196px">
+						<span>In game screenshot<br>Note the iconic hud<br>and hellish landscape</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="figure">
+						<img src="{{ url_for('static', filename= 'images/doom/081.png')}}" alt="", width='240px' height="196px">
+						<span>In game screenshot<br>Even indoors, the color scheme<br>remains warm, but hostile</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="figure">
+						<img src="{{ url_for('static', filename= 'images/doom/086.png')}}" alt="", width='240px' height="196px">
+						<span>In game screenshot<br>Doom 2016 included collectibles,<br>giving reason to explore more areas</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="figure">
+						<img src="{{ url_for('static', filename= 'images/doom/088.png')}}" alt="", width='240px' height="196px">
+						<span>In game screenshot<br>Many of Doom's antagonists are<br>quite literally demons</span>
+					</a>
+				</li>
+				<li class="last">
+					<p>
+						Doom is a video game franchise that first gained popularity in the early 1990s.
+						Its debut title, DOOM(1993) is often considered one of the greatest first generation first
+						person shooter titles and a <a href="https://www.smbc-comics.com/comic/2011-02-17">meme in itself</a>.  In 2016, it was rebooted with the DOOM(2016) title, which while once again being an incredibly impressive
+						FPS title, <a href="https://imgur.com/a/t2wXm#rmvgLmN"> has some heavy colorspace bias.</a>  While it was a sound artistic decision, it has spawned <a href="{{ url_for('home') }}">at least one meme</a>.
+					</p>
+				</li>
+				<li>
+					<a href="#" class="figure">
+						<img src="{{ url_for('static', filename= 'images/doom/097.png')}}" alt="", width='240px' height="196px">
+						<span>In game screenshot<br>One of Doom 2016's tougher,<br>but still common, foes</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="figure">
+						<img src="{{ url_for('static', filename= 'images/doom/113.png')}}" alt="", width='240px' height="196px">
+						<span>In game screenshot<br>Doom features both demonic <br>level and architecture design</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="figure">
+						<img src="{{ url_for('static', filename= 'images/doom/124.png')}}" alt="", width='240px' height="196px">
+						<span>In game screenshot<br>Doom also features iconic<br>weapons for the protagonist</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="figure">
+						<img src="{{ url_for('static', filename= 'images/doom/125.png')}}" alt="", width='240px' height="196px">
+						<span>In game screenshot<br>Despite the familiar colors, the <br>level visuals do not feel repetitive </span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p id="left">
+				Check out this website's source: <a href="https://github.com/tokotchd/DoomOrLasagna">Github</a><br>
+				Contact the creator on LinkedIn: <a href="https://www.linkedin.com/in/dylan-tokotch-844857b4/">LinkedIn</a><br>
+				Template courtesy of: <a href="https://freewebsitetemplates.com/">FreeWebsiteTemplate</a>
+			</p>
+			<p id="right">
+				Doom 1993 is &copy Copyright of id Software<br>
+				Doom 2016 is &copy Copyright of Bethesda Softworks<br>
+				All materials above fall under fair use<br>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

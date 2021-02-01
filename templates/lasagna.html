@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Lasagna</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div>
+				<ul>
+					<li>
+						<a href="{{ url_for('home') }}">Home</a>
+					</li>
+					<li>
+						<a href="{{ url_for('what') }}">...What?</a>
+					</li>
+				</ul>
+				<a href="{{ url_for('home') }}" id="logo"><img src="{{ url_for('static', filename= 'images/logo.png') }}" alt="Image"></a>
+				<ul>
+					<li>
+						<a href="{{ url_for('why') }}">Why?</a>
+					</li>
+					<li>
+						<a href="{{ url_for('contact') }}">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<ul>
+				<li>
+					<a href="{{ url_for('doom') }}">DOOM</a>
+				</li>
+				<li class="current">
+					<a href="{{ url_for('lasagna') }}">LASAGNA</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="body">
+		<div id="content">
+			<p>
+				Lasagna is defined on <a href="https://en.wikipedia.org/wiki/Lasagne">Wikipedia</a> as "an Italian dish made of stacked layers of thin flat pasta
+				alternating with fillings such as ragù (ground meats and tomato sauce) and other vegetables,
+				cheese (which may include ricotta and parmesan), and seasonings and spices such as garlic,
+				oregano and basil."  Generally, it is a very tasty and wholesome dish.
+				<br><br>
+			</p>
+			<ul class="article">
+				<li>
+					<div>
+						<a href="#"><img src="{{ url_for('static', filename= 'images/lasagna/002.png')}}" height="305" width="398" alt=""></a>
+					</div>
+					<h3>Warm, gooey, and delicious</h3>
+					<p>
+						Seriously, it's hard to go wrong with something made almost entirely of meat and cheese
+					</p>
+				</li>
+				<li>
+					<div>
+						<a href="#"><img src="{{ url_for('static', filename= 'images/lasagna/040.png')}}" height="305" width="398" alt=""></a>
+					</div>
+					<h3>Capable of feeding entire families</h3>
+					<p>
+						Good luck making a "small" lasagna, you might as well get out your largest baking sheet and make 40 portions at once
+					</p>
+				</li>
+				<li>
+					<div>
+						<a href="#"><img src="{{ url_for('static', filename= 'images/lasagna/123.png')}}" height="305" width="398" alt=""></a>
+					</div>
+					<h3>Portions easily dividable, leftover friendly</h3>
+					<p>
+						Making 40 portions of another dish would be disastrous, but lasagna's extreme divisibility doesn't care.
+					</p>
+				</li>
+				<li>
+					<div>
+						<a href="#"><img src="{{ url_for('static', filename= 'images/lasagna/127.png')}}" height="305" width="398" alt=""></a>
+					</div>
+					<h3>Easy to make</h3>
+					<p>
+						I bet you're already looking up recipes in another tab
+					</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p id="left">
+				Check out this website's source: <a href="https://github.com/tokotchd/DoomOrLasagna">Github</a><br>
+				Contact the creator on LinkedIn: <a href="https://www.linkedin.com/in/dylan-tokotch-844857b4/">LinkedIn</a><br>
+				Template courtesy of: <a href="https://freewebsitetemplates.com/">FreeWebsiteTemplate</a>
+			</p>
+			<p id="right">
+				Doom 1993 is &copy Copyright of id Software<br>
+				Doom 2016 is &copy Copyright of Bethesda Softworks<br>
+				All materials above fall under fair use<br>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

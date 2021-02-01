@@ -1,0 +1,969 @@
+/*Website template by freewebsitetemplates.com*/
+@font-face {
+	font-family: 'Comic Sans MS';
+}
+body {
+	background: url(../images/bg-body.jpg) repeat left top;
+	font-family: 'Comic Sans MS';
+	font-size: 14px;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+a {
+	outline: none;
+}
+img {
+	border: 0;
+}
+#header {
+	border-top: 2px solid #ce5643;
+}
+#header div:first-child {
+	background: url(../images/light.png) no-repeat center top;
+	height: 144px;
+}
+#header div:first-child div {
+	border: 0;
+	background: none;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 27px 0 0;
+	text-align: center;
+	width: 960px;
+}
+#header div:first-child div ul {
+	list-style: none;
+	float: left;
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 46px 0;
+	width: auto;
+}
+#header div:first-child div ul li {
+	float: left;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	width: 160px;
+}
+#header div:first-child div ul li a {
+	background: none;
+	color: #989282;
+	font-family: 'Comic Sans MS';
+	font-size: 14px;
+	line-height: 14px;
+	padding: 0 1px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#header div:first-child div ul li.current a {
+	border-bottom: 1px solid #b66f09;
+	color: #b66f09;
+}
+#header div:first-child div ul li a:hover {
+	color: #b66f09;
+}
+#header div:first-child div a#logo {
+	float: left;
+	margin: 0 34px;
+}
+#header div {
+	background: url(../images/bg-yellow.png) repeat-x left bottom;
+	width: 100%;
+}
+#header > div > ul {
+	background: none;
+	height: auto;
+	margin: 0 auto;
+	padding: 22px 0 27px;
+	text-align: center;
+	width: 960px;
+}
+#header > div ul li {
+	display: inline;
+	float: none;
+	margin: 0 10px;
+}
+#header > div > ul li a {
+	color: #989282;
+	display: inline-block;
+	font-family: 'Comic Sans MS';
+	font-size: 20px;
+	font-weight: normal;
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
+	width: 220px;
+}
+#header > div > ul li.current a {
+	background: url(../images/bg-menu.png) no-repeat right top;
+	color: #b66f09;
+}
+#header > div > ul li a:hover {
+	color: #b66f09;
+}
+#body {
+	background: #231203;
+	border-bottom: 1px solid #6d4306;
+	min-height: 500px;
+	padding: 27px 0 20px;
+	width: 100%;
+}
+#body > div {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+}
+#body .header, #body .body, #body .footer {
+	overflow: hidden;
+}
+#body .header {
+	background: url(../images/frame.jpg) no-repeat center center;
+	height: 449px;
+	padding: 13px 7px;
+	width: 946px;
+}
+#body .header div {
+	float: left;
+	width: 240px;
+}
+#body .header div h1 {
+	color: #b66f09;
+	font-family: 'Comic Sans MS';
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 40px;
+	margin: 0;
+	padding: 60px 20px 30px;
+	text-align: center;
+	text-transform: capitalize;
+}
+#body .header div h3 {
+	color: #b66f09;
+	font-family: 'Comic Sans MS';
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+	padding: 30px 0 0;
+	text-align: center;
+	text-transform: capitalize;
+}
+#body .header div p {
+	color: #32b5ba;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 30px 10px;
+	text-align: center;
+}
+#body .header div p a {
+	color: #fff;
+	text-decoration: none;
+}
+#body .header div p a:hover {
+	text-decoration: underline;
+}
+#body .header > img {
+	display: block;
+	float: left;
+	margin: 0 50px 0 3px;
+}
+#body .header ul {
+	margin: 0;
+	padding: 30px 0 0;
+	width: 239px;
+}
+#body .header ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 239px;
+}
+#body .header ul li a {
+	text-decoration: none;
+}
+#body .header ul li img {
+	display: block;
+}
+#body .header ul li a:hover img {
+	opacity: 0.8;
+}
+#body .header ul li span {
+	color: #b66f09;
+	display: block;
+	font-family: 'Comic Sans MS';
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px 0;
+}
+#body .header ul li a:hover span {
+	color: #b66f09;
+}
+#body .body {
+	padding: 40px 0;
+	width: 940px;
+}
+#body .body div {
+	border-bottom: 1px solid #876a38;
+	border-top: 1px solid #876a38;
+	float: left;
+	width: 100%;
+}
+
+#body .body div h1 {
+    font-size: 60px;
+    color: #b66f09;
+    text-align: center;
+    margin: 0;
+	padding: 0;
+}
+
+#body .body div p {
+	color: #b66f09;
+	font-family: 'Comic Sans MS';
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#body .body div form {
+	color: #989282;
+	font-family: 'Comic Sans MS';
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#body .body div p a {
+	color: #989282;
+	text-decoration: underline;
+}
+#body .body div p a:hover {
+	color: #b8a87c;
+}
+#body .body img {
+	display: block;
+	float: left;
+	margin: 0 20px;
+}
+#body .footer > div {
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+}
+#body .footer div h3 {
+	color: #b66f09;
+	font-family: 'Comic Sans MS';
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px 0 7px;
+	text-transform: capitalize;
+}
+#body .footer p {
+	color: #989282;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body .footer p a {
+	color: #fff;
+	text-decoration: none;
+}
+#body .footer p a:hover {
+	text-decoration: underline;
+}
+#body .footer div.figure {
+	background: #543f1b;
+	border: 1px solid #876a38;
+	padding: 3px;
+	width: 372px;
+}
+#body .footer div.figure div {
+	background: #1b1b1b;
+	padding: 16px;
+}
+#body .footer div.figure div h1 {
+	color: #b66f09;
+	font-family: 'Comic Sans MS';
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 17px;
+	text-align: left;
+	text-transform: capitalize;
+}
+#body .footer div.figure div h1 a {
+	color: #b66f09;
+	text-decoration: none;
+}
+#body .footer div.figure div h1 a:hover {
+	color: #b66f09;
+}
+#body .footer div.figure div a, #body .footer div.figure div a img {
+	display: block;
+}
+#body .footer div.figure div a img {
+	background: #bfb38d;
+	border: 0;
+	padding: 2px;
+}
+#body .footer div.figure div > a:hover {
+	opacity: 0.8;
+}
+#body .footer div.article {
+	width: 300px;
+}
+#body .footer div.article ul {
+	margin: 0;
+	padding: 0;
+}
+#body .footer div.article ul li {
+	border-top: 1px solid #5e3342;
+	color: #989282;
+	list-style: none;
+	margin: 0;
+	padding: 12px 0;
+}
+#body .footer div.article ul li:first-child {
+	border: 0;
+	padding-top: 0;
+}
+#body .footer div.article ul li span {
+	display: block;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body .footer div.article ul li span a {
+	color: #989282;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#body .footer div.article ul li p a.more {
+	color: #989282;
+	margin: 0 0 0 5px;
+	text-decoration: none;
+}
+#body .footer p a:hover, #body .footer div.article ul li p a.more:hover, #body .footer div.article ul li span a:hover {
+	color: #b8a87c;
+}
+#body .footer div.section p a:hover {
+	text-decoration: underline;
+}
+#body .footer div.section {
+	width: 220px;
+}
+#body .footer div.section > a {
+	background: #543f1b;
+	border: 1px solid #876a38;
+	display: block;
+	margin: 7px 0;
+	padding: 3px;
+}
+#body .footer div.section > a img {
+	display: block;
+}
+#body .footer div.section > a:hover {
+	opacity: 0.8;
+}
+#body #content {
+	overflow: hidden;
+}
+#body #content > p {
+	color: #989282;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	padding: 0 31px;
+}
+#body #content > p a {
+	color: #989282;
+	text-decoration: underline;
+}
+#body #content > p a:hover {
+	color: #b8a87c;
+}
+#body #content ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#body #content ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#body #content ul.gallery li {
+	background: #543f1b;
+	border: 1px solid #876a38;
+	float: left;
+	margin: 0 20px 32px;
+	padding: 3px;
+	width: 272px;
+}
+#body #content ul.gallery li.last {
+	background: none;
+	border: 0;
+	text-align: justify
+}
+#body #content ul.gallery li a.figure {
+	color: #b66f09;
+	background: #1b1b1b;
+	border: 1px solid #1e1d1b;
+	display: block;
+	font-size: 14px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	padding: 16px 16px 0;
+	text-align: center;
+	text-decoration: none;
+}
+#body #content ul.gallery li a.figure img {
+	display: block;
+}
+#body #content ul.gallery li a.figure span {
+	display: block;
+	line-height: 24px;
+	margin: 0;
+	padding: 5px 0;
+}
+#body #content ul.gallery li a.figure:hover img {
+	opacity: 0.8;
+}
+#body #content ul.gallery li p {
+	color: #989282;
+	font-size: 15px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #content ul.gallery li p a {
+	color: #b66f09;
+	text-decoration: underline;
+}
+#body #content ul.gallery li p a:hover {
+	color: #b8a87c;
+}
+#body #content ul.article li {
+	float: left;
+	margin: 0 30px 30px;
+	min-height: 408px;
+	width: 420px;
+}
+#body #content ul.article li div {
+	background: #543f1b;
+	border: 1px solid #876a38;
+	margin: 0;
+	padding: 3px;
+}
+#body #content ul.article li div a {
+	display: block;
+}
+#body #content ul.article li div img {
+	background: #1b1b1b;
+	border: 1px solid #1e1d1b;
+	display: block;
+	padding: 6px;
+}
+#body #content ul.article li div a:hover {
+	opacity: 0.9;
+}
+#body #content ul.article li h3 {
+	color: #b66f09;
+	font-size: 16px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	margin: 0;
+	padding: 12px 0 5px;
+}
+#body #content ul.article li h3 a:hover {
+	color: #fff;
+}
+#body #content ul.article li p {
+	color: #989282;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #content ul.article li p a {
+	color: #989282;
+	text-decoration: underline;
+}
+#body #content ul.article li p a:hover {
+	color: #b8a87c;
+}
+#body #about h1 {
+	color: #b66f09;
+	font-size: 24px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+}
+#body #about h3 {
+	color: #b66f09;
+	font-size: 18px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	margin: 0;
+	padding: 36px 10px 8px;
+}
+#body #about > p {
+	color: #989282;
+	font-size: 18px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+}
+#body #about > p a {
+	color: #989282;
+	text-decoration: underline;
+}
+#body #about > p a:hover {
+	color: #b8a87c;
+}
+#body #about .article {
+	margin: 0;
+	overflow: hidden;
+	padding: 28px 0 0;
+	width: 960px;
+}
+#body #about .article div {
+	background: url(../images/frame-mid.gif) repeat-y top center;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 461px;
+}
+#body #about .article div:first-child {
+	margin: 0 20px 0 9px;
+}
+#body #about .article div h2 {
+	color: #b66f09;
+	background: url(../images/frame-top.gif) no-repeat top center;
+	font-size: 30px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	line-height: 36px;
+	margin: 0;
+	padding: 25px 21px 20px;
+}
+#body #about .article div p {
+	background: url(../images/frame-bottom.gif) no-repeat bottom center;
+	color: #32b5ba;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 21px 31px;
+}
+#body #about .article div p a {
+	color: #32b5ba;
+	text-decoration: underline;
+}
+#body #about .article div p a:hover {
+	color: #8cdfe2;
+}
+#body #about .section {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 40px 0;
+	width: 940px;
+}
+#body #about .section div {
+	border-bottom: 1px solid #876a38;
+	border-top: 1px solid #876a38;
+	min-height: 141px;
+	float: left;
+	margin: 0;
+	padding: 18px 20px;
+	width: 340px;
+}
+#body #about .section div h4 {
+	color: #b66f09;
+	font-size: 16px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 5px;
+}
+#body #about .section div p {
+	color: #989282;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+#body #about .section div p a {
+	color: #989282;
+	text-decoration: underline;
+}
+#body #about .section div p a:hover {
+	color: #b8a87c;
+}
+#body #about .section img {
+	display: block;
+	float: left;
+	margin: 22px 20px;
+}
+#body #content #blog {
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+	width: 700px;
+}
+#body #content #blog div {
+	border-bottom: 1px solid #876a38;
+	border-top: 1px solid #876a38;
+	margin: 0 0 35px;
+	padding: 17px 20px 40px;
+}
+#body #content #blog div span {
+	color: #989282;
+	display: block;
+	line-height: 24px;
+	margin: 0;
+}
+#body #content #blog div span a {
+	color: #989282;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#body #content #blog div h3 {
+	color: #b66f09;
+	font-size: 16px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #content #blog div h3 a {
+	color: #fff;
+	text-decoration: none;
+}
+#body #content #blog div p {
+	color: #989282;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #content #blog div p a {
+	color: #989282;
+	text-decoration: underline;
+}
+#body #content #blog div a:hover {
+	color: #b8a87c;
+}
+#body #content #blog div span a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#body #content #sidebar {
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+	width: 220px;
+}
+#body #content #sidebar div, #body #content #sidebar div ul {
+	margin: 0;
+	padding: 0;
+}
+#body #content #sidebar div {
+	margin: 0 0 6px;
+	padding: 17px 0 0;
+}
+#body #content #sidebar div ul li {
+	background: url(../images/bullet.png) no-repeat 0 10px;
+	list-style: none;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+#body #content #sidebar div ul li a {
+	color: #989282;
+	display: block;
+	text-decoration: none;
+}
+#body #content #sidebar div ul li a:hover {
+	text-decoration: underline;
+}
+#body #content #sidebar div h3 {
+	color: #b66f09;
+	font-size: 16px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-transform: capitalize;
+}
+#body #contact {
+	padding: 0 10px;
+	width: 940px;
+}
+#body #contact h1 {
+	color: #b66f09;
+	font-size: 24px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+}
+#body #contact h1 a {
+	color: #b66f09;
+}
+#body #contact h1 a:hover {
+	color: #fff;
+}
+#body #contact > div {
+	margin: 0;
+	overflow: hidden;
+	padding: 30px 0 50px;
+}
+#body #contact div .section {
+	float: left;
+	margin: 0 20px 0 0;
+	padding: 0;
+	width: 540px;
+}
+#body #contact div .section p {
+	color: #989282;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #contact div .section p a {
+	color: #989282;
+	text-decoration: underline;
+}
+#body #contact div .section p a:hover {
+	color: #b8a87c;
+}
+#body #contact div .section ul, #body #contact div .section ul li {
+	margin: 0;
+	padding: 0;
+}
+#body #contact div .section ul {
+	padding: 10px 0 0;
+}
+#body #contact div .section ul li {
+	color: #989282;
+	line-height: 24px;
+	list-style: none;
+	margin: 0;
+	padding: 14px 0;
+}
+#body #contact div .section ul li span {
+	color: #b66f09;
+	display: block;
+	font-size: 16px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-transform: capitalize;
+}
+#body #contact div .section ul li a {
+	color: #989282;
+	text-decoration: underline;
+}
+#body #contact div .section ul li a:hover {
+	color: #b8a87c;
+}
+#body #contact div .figure {
+	background: #543f1b;
+	border: 1px solid #876a38;
+	float: left;
+	margin: 0;
+	padding: 3px;
+	width: 372px;
+}
+#body #contact div .figure div {
+	background: #1b1b1b;
+	padding: 16px;
+}
+#body #contact div .figure div img {
+	background: #bfb38d;
+	border: 0;
+	display: block;
+	padding: 3px;
+}
+#body #contact div .figure div p {
+	color: #32b5ba;
+	line-height: 24px;
+	margin: 0;
+	padding: 7px 0 0;
+}
+#body #contact div .figure div p a {
+	color: #32b5ba;
+	text-decoration: underline;
+}
+#body #contact div .figure div p a:hover {
+	color: #8cdfe2;
+}
+#body #contact form {
+	border-bottom: 1px solid #876a38;
+	border-top: 1px solid #876a38;
+	margin: 0;
+	overflow: hidden;
+	padding: 18px 20px 30px 19px;
+}
+#body #contact form span {
+	clear: both;
+	color: #b66f09;
+	display: block;
+	font-size: 16px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 17px;
+	text-transform: capitalize;
+}
+#body #contact form div {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 502px;
+}
+#body #contact form div.information {
+	margin: 0 58px 0 0;
+	width: 341px;
+}
+#body #contact form label {
+	color: #989282;
+	display: block;
+	line-height: 36px;
+	margin: 0;
+	padding: 0;
+	text-transform: capitalize;
+}
+#body #contact form input {
+	border: 1px solid #bfc2c7;
+	color: #999;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	margin: 0;
+	padding: 0;
+}
+#body #contact form div.information input {
+	font-size: 16px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	padding: 0 5px;
+	width: 329px;
+}
+#body #contact form textarea {
+	border: 1px solid #bfc2c7;
+	color: #999;
+	display: block;
+	font-size: 16px;
+	font-family: 'Comic Sans MS';
+	font-weight: normal;
+	height: 172px;
+	margin: 0 0 5px;
+	padding: 5px;
+	resize: none;
+	width: 490px;
+}
+#body #contact form #send {
+	background: url(../images/button.png) no-repeat 0 0;
+	border: 0;
+	height: 24px;
+	margin: 0;
+	padding: 0;
+	width: 51px;
+}
+#body #contact form #send:hover {
+	background-position: 0 -29px;
+}
+#footer {
+	background: url(../images/footer-shadow.png) repeat-x left top;
+	margin: 0;
+	padding: 40px 0;
+}
+#footer div {
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	width: 940px;
+}
+#footer div div {
+	float: left;
+	padding: 0;
+	width: 470px;
+}
+#footer div div a {
+	display: block;
+	float: left;
+	height: 26px;
+	margin: 0 0 0 18px;
+	text-indent: -99999px;
+}
+#footer div div a:first-child {
+	margin: 0;
+}
+
+#footer div div a#facebook {
+	background: url(../images/icons.png) no-repeat 0 0;
+	width: 25px;
+}
+#footer div div a#facebook:hover {
+	background-position: -43px 0;
+}
+#footer div div a#twitter {
+	background: url(../images/icons.png) no-repeat 0 -30px;
+	width: 38px;
+}
+#footer div div a#twitter:hover {
+	background-position: -43px -30px;
+}
+#footer div div a#googleplus {
+	background: url(../images/icons.png) no-repeat 0 -61px;
+	width: 26px;
+}
+#footer div div a#googleplus:hover {
+	background-position: -43px -61px;
+}
+#footer div p#left {
+	color: #4e4e4e;
+	float: left;
+	font-family: 'Comic Sans MS';
+	font-size: 12px;
+	margin: 0;
+	text-align: left;
+	width: 470px;
+}
+#footer div p#left a {
+    color: #888888;
+    text-decoration: underline;
+}
+
+#footer div p#right {
+	color: #4e4e4e;
+	float: right;
+	font-family: 'Comic Sans MS';
+	font-size: 12px;
+	margin: 0;
+	text-align: right;
+	width: 470px;
+}

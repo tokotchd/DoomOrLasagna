@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div>
+				<ul>
+					<li>
+						<a href="{{ url_for('home') }}">Home</a>
+					</li>
+					<li>
+						<a href="{{ url_for('what') }}">...What?</a>
+					</li>
+				</ul>
+				<a href="{{ url_for('home') }}" id="logo"><img src="{{ url_for('static', filename= 'images/logo.png') }}" alt="Image"></a>
+				<ul>
+					<li>
+						<a href="{{ url_for('why') }}">Why?</a>
+					</li>
+					<li class="current">
+						<a href="{{ url_for('contact') }}">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<ul>
+				<li>
+					<a href="{{ url_for('doom') }}">DOOM</a>
+				</li>
+				<li>
+					<a href="{{ url_for('lasagna') }}">LASAGNA</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="body">
+		<div id="contact">
+			<h1>Okay, this website has to have at least one serious page, and this one is it.</h1>
+			<div>
+				<div class="section">
+					<p>
+						Hi, my name's Dylan.  Thanks for taking the time to view my website.  This website is half-joke, half portfolio.
+						I hope that it's done a good job showcasing some modern technologies and tools that I am familiar with in an entertaining way.
+						As you've probably noticed, the UI and frontend need some work; I generally have more experience as a backend/algorithms developer
+						than I do as a front end developer.  And I have even more experience as a CV and Machine Learning Engineer.
+						In fact, if you wish to view a copy of my resume, you can find it on the right.  Of course, there are other ways to contact me, see below.
+					</p>
+					<ul>
+						<li>
+							<span>Email</span><a href="mailto:tokotchd@gmail.com">tokotchd@gmail.com</a>
+						</li>
+						<li>
+							<span>Github</span><a href="http://www.github.com/tokotchd/">tokotchd@github</a>
+						</li>
+						<li>
+							<span>LinkedIn</span><a href="https://www.linkedin.com/in/dylan-tokotch-844857b4/">Dylan Tokotch on LinkedIn</a><br>
+						</li>
+						<li>
+							<span>Portfolio</span>This website and my github are the closest thing I have to a portfolio right now.
+							It's unfortunately more "hackathon" quality than production quality code, but I hope it shows
+							a base line understanding and approachable application code for each of the technologies involved.
+						</li>
+					</ul>
+				</div>
+				<div class="figure">
+					<div>
+						<embed src="{{ url_for('static', filename= 'Dylan_Tokotch_Resume.pdf')}}" type="application/pdf" width="100%" height="475px" />
+						<p>
+							Resume current as of 1/31/2021.  Of course, if you'd rather have a direct link to that, it can be found
+							<a href="{{ url_for('static', filename= 'Dylan_Tokotch_Resume.pdf')}}">here.</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p id="left">
+				Check out this website's source: <a href="https://github.com/tokotchd/DoomOrLasagna">Github</a><br>
+				Contact the creator on LinkedIn: <a href="https://www.linkedin.com/in/dylan-tokotch-844857b4/">LinkedIn</a><br>
+				Template courtesy of: <a href="https://freewebsitetemplates.com/">FreeWebsiteTemplate</a>
+			</p>
+			<p id="right">
+				Doom 1993 is &copy Copyright of id Software<br>
+				Doom 2016 is &copy Copyright of Bethesda Softworks<br>
+				All materials above fall under fair use<br>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

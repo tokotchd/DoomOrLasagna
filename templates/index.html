@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div>
+				<ul>
+					<li class="current">
+						<a href="{{ url_for('home') }}">Home</a>
+					</li>
+					<li>
+						<a href="{{ url_for('what') }}">...What?</a>
+					</li>
+				</ul>
+				<a href="{{ url_for('home') }}" id="logo"><img src="{{ url_for('static', filename= 'images/logo.png') }}" alt="Image"></a>
+				<ul>
+					<li>
+						<a href="{{ url_for('why') }}">Why?</a>
+					</li>
+					<li>
+						<a href="{{ url_for('contact') }}">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<ul>
+				<li>
+					<a href="{{ url_for('doom') }}">DOOM</a>
+				</li>
+				<li>
+					<a href="{{ url_for('lasagna') }}">LASAGNA</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="body">
+		<div class="body">
+			<div>
+				<h1>TRY IT HERE</h1>
+				<form action="{{ url_for('classify_image') }}" method="POST", enctype = "multipart/form-data">
+				  Select image to upload:
+				  <input type="file" name="file">
+				  <input type="submit">
+				</form>
+				{% if message %}
+				<p>{{ message }}</p>
+				{% endif %}
+			</div>
+		</div>
+		<div class="header">
+			<div>
+				<h1>A<br>computer vision debacle</h1>
+				<p>
+					A solution that nobody asked for, over a problem that nobody took seriously, using a level of effort and methodology that most would consider excessive. <br>
+				</p>
+			</div>
+
+			<img src="{{ url_for('static', filename= 'images/meme.jpg') }}" width=380px height=449px alt="">
+			<div>
+				<h1>A <br>Dream Turned Meme</h1>
+				<p>
+					Turning a weekend of being snowed in into a personal hackathon based on an idea formed from a five second glance at a challenge literally meant to be a joke.
+				</p>
+			</div>
+		</div>
+
+	</div>
+	<div id="footer">
+		<div>
+			<p id="left">
+				Check out this website's source: <a href="https://github.com/tokotchd/DoomOrLasagna">Github</a><br>
+				Contact the creator on LinkedIn: <a href="https://www.linkedin.com/in/dylan-tokotch-844857b4/">LinkedIn</a><br>
+				Template courtesy of: <a href="https://freewebsitetemplates.com/">FreeWebsiteTemplate</a>
+			</p>
+			<p id="right">
+				Doom 1993 is &copy Copyright of id Software<br>
+				Doom 2016 is &copy Copyright of Bethesda Softworks<br>
+				All materials above fall under fair use<br>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

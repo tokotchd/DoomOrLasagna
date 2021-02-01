@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Why</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div>
+				<ul>
+					<li>
+						<a href="{{ url_for('home') }}">Home</a>
+					</li>
+					<li>
+						<a href="{{ url_for('what') }}">...What?</a>
+					</li>
+				</ul>
+				<a href="{{ url_for('home') }}" id="logo"><img src="{{ url_for('static', filename= 'images/logo.png') }}" alt="Image"></a>
+				<ul>
+					<li class="current">
+						<a href="{{ url_for('why') }}">Why?</a>
+					</li>
+					<li>
+						<a href="{{ url_for('contact') }}">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<ul>
+				<li>
+					<a href="{{ url_for('doom') }}">DOOM</a>
+				</li>
+				<li>
+					<a href="{{ url_for('lasagna') }}">LASAGNA</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="body">
+		<div id="about">
+			<h1>...But why?</h1>
+			<h3>I can only respond with a simple meme that started it all:<br><br></h3>
+			<img src="{{ url_for('static', filename= 'images/meme.jpg') }}" alt="">
+			<p>
+				<br>
+				This simple joke brought about in me, a machine learning and computer vision engineer, to a deeply philosophical and unnecessary question: "could a classifier be built for this?"
+				From a computer vision perspective, the problem proved interesting because both classes were heavily biased towards
+				the red channel in RGB colorspace.  From a deep learning perspective, it felt to me like a rehash of the
+				<a href="https://www.freecodecamp.org/news/chihuahua-or-muffin-my-search-for-the-best-computer-vision-api-cbda4d6b425d/">dog or muffin meme</a>
+				which I had also previously laughed about, but never touched.  So on a particular snowy weekend of no particular importance in January, I found myself
+				building the full stack of "Doom Or Lasagna".  From training to classification, from backend Flask application to frontend HTML website, and finally from Docker image to EC2 instance, I
+				ran through it all, for no other reason than just to say "this is what I can do in a weekend."  I knew the resulting dumpster fire wasn't going to be pretty, and I knew at the end
+				I wouldn't even have a useful capability or even a hackathon to submit it to.  But somewhere along the way the project iself became a meme to me; a meme I couldn't let be a dream.
+				To quote Cave Johnson: "Science isn't about Why, it's about Why Not."
+
+			</p>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p id="left">
+				Check out this website's source: <a href="https://github.com/tokotchd/DoomOrLasagna">Github</a><br>
+				Contact the creator on LinkedIn: <a href="https://www.linkedin.com/in/dylan-tokotch-844857b4/">LinkedIn</a><br>
+				Template courtesy of: <a href="https://freewebsitetemplates.com/">FreeWebsiteTemplate</a>
+			</p>
+			<p id="right">
+				Doom 1993 is &copy Copyright of id Software<br>
+				Doom 2016 is &copy Copyright of Bethesda Softworks<br>
+				All materials above fall under fair use<br>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

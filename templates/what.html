@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>What</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div>
+				<ul>
+					<li>
+						<a href="{{ url_for('home') }}">Home</a>
+					</li>
+					<li class="current">
+						<a href="{{ url_for('what') }}">...What?</a>
+					</li>
+				</ul>
+				<a href="{{ url_for('home') }}" id="logo"><img src="{{ url_for('static', filename= 'images/logo.png') }}" alt="Image"></a>
+				<ul>
+					<li>
+						<a href="{{ url_for('why') }}">Why?</a>
+					</li>
+					<li>
+						<a href="{{ url_for('contact') }}">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<ul>
+				<li>
+					<a href="{{ url_for('doom') }}">DOOM</a>
+				</li>
+				<li>
+					<a href="{{ url_for('lasagna') }}">LASAGNA</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="body">
+		<div id="about">
+			<h1>What is this?</h1>
+			<p>
+				This website hosts an image classifier.  It can tell you if an uploaded image is either lasagna or a doom level.
+				To try it, simply navigate to the website's home page, upload an image of lasagna or a doom screenshot and click submit.
+				The website should return (hopefully) correct results!  If you don't have images of lasagna or doom screenshots on hand,
+				an image search on your favorite search engine will be your best friend. <br><br>
+			</p>
+			<h1>How does it work?</h1>
+			<p>
+				THE WEBSITE FRONTEND OF HTML5 IS HOSTED VIA PYTHON FLASK LIVING WITHIN A DOCKER CONTAINER HOSTED ON EC2 AWS.
+				THE BACKEND BINARY CLASSIFIER IS A TENSORFLOW INFERENCE MODEL RUNNING IN SERVER MODE, HOSTED THE SAME WAY.<br><br>
+			<p/>
+			<p>
+				Phew... that was a lot of buzzwords.  But seriously, whether you're a budding web developer, or a curious data scientist,
+				if you'd like to know more, the whole stack's source is available as a repository on my Github.  You can find a link to that
+				on the left side of the page footer, at the bottom of any page on this website, or directly in the middle of the contact page.
+			</p>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p id="left">
+				Check out this website's source: <a href="https://github.com/tokotchd/DoomOrLasagna">Github</a><br>
+				Contact the creator on LinkedIn: <a href="https://www.linkedin.com/in/dylan-tokotch-844857b4/">LinkedIn</a><br>
+				Template courtesy of: <a href="https://freewebsitetemplates.com/">FreeWebsiteTemplate</a>
+			</p>
+			<p id="right">
+				Doom 1993 is &copy Copyright of id Software<br>
+				Doom 2016 is &copy Copyright of Bethesda Softworks<br>
+				All materials above fall under fair use<br>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
